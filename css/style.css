@@ -1,0 +1,247 @@
+.slider h3,
+.slider h5,
+.clients h3  {
+    text-shadow: 1px 1px 3px rgba(0,0,0, .5);
+
+}
+
+.body {
+  background-image: url(/materialize/img/clients/batik.png);
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.dropdown {
+    padding-left: 100%;
+    padding-top: -20%;
+}
+
+.content {
+    margin-left: -140px;
+    width: 1500px;
+}
+
+.content a {
+    margin-top: 25px;
+}
+
+.kepala {
+    padding-left: 10px;
+}
+
+.fani {
+    padding-left: 250px;
+}
+
+.aulia {
+    padding-left: 400px;
+}
+
+.alumni {
+    padding-left: 50px;
+}
+
+.alumni1 {
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+.alumni2 {
+    padding-left: 50px;
+    padding-right: 20px;
+    
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.about {
+    margin-left: 10px;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,1))
+}
+
+.table{
+    text-align: center;
+}
+
+.login {
+    width: 600px;
+    height: 380px;
+    margin-left: 2px;
+    margin-top: -12px
+}
+.login1 {
+    width: 600px;
+    height: 380px;
+    margin-right: -50px;
+    margin-left: -190px;
+    margin-top: -13px;
+    
+}
+
+.login2 {
+    width: 600px;
+    height: 360px;
+    margin-left: -635px;
+    margin-top: 30px;
+    margin-bottom: -10px;
+}
+
+.login3 {
+    width: 600px;
+    height: 360px;
+    margin-left: -6px;
+    margin-top: -365px;
+}
+
+
+.tabel {
+    text-align: center;
+}
+
+.ppdb {
+    padding-left: 15px;
+}
+
+.pendaftaran {
+    padding-left: 15px;
+}
+
+.pembayaran {
+    padding-left: 15px;
+}
+
+/* kiri */
+#footer{
+    width: 100%;
+    height: 900px;
+    margin-left: 2px;
+    background-color: #424242;
+}
+
+#footer .yt {
+    margin-left: 10px;
+}
+
+#footer iframe {
+    width: 400px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+#footer .ggl {
+    height: 300px;
+    margin-left: 10px;
+}
+
+#footer p {
+    color: grey;
+    font-weight: 500;
+    text-align: center;
+    margin-right: 23px;
+}
+/*  */
+#tengah h4 {
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#tengah hr {
+   width: 250px;
+   margin-right: 300px;
+   border: 1px solid #1565c0 ;
+}
+
+#tengah img {
+    border: 1px solid white;
+    margin-top: 17px;
+}
+
+#tengah .p1 {
+   margin-top: -50px;
+   margin-right: 10px;
+   color: white;
+}
+
+#tengah .p1:hover {
+    color: #1e88e5;
+    transition: .4s;
+}
+
+#tengah #hr2{
+    margin-top: 29px;
+    width: 380px;
+    border: .1px solid grey;
+}
+
+#tengah #hr3 {
+    border: .1px solid grey;
+    width: 380px;
+    margin-top: -8px;
+}
+
+/*  */
+#k2 .p2  {
+    color: white;
+    margin-top: -50px;
+    margin-right: 99px;
+    margin-left: 55px;
+}
+
+#k2 .p2:hover {
+    color: #1e88e5;
+    transition: .4s;
+}
+/*  */
+#k3 .p3 {
+    margin-top: -50px;
+    margin-right: -40px;
+    color: white;
+}
+
+#k3 #hr4 {
+    margin-top: 29px;
+    width: 380px;
+    border: .1px solid gray;
+}
+
+#k3 .p3:hover {
+    color: #1e88e5;
+}
+/*  */
+#kanan .judul {
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+#kanan hr {
+    width: 250px;
+    margin-right: 300px;
+    border: 1px solid #1565c0;
+}
+
+#kanan img {
+    width: 50px;
+    height: 50px;
+}
+
+#kanan span {
+    color: white;
+    font-weight: 400;
+    margin-top: -500px;
+}
+
+section, footer {
+    padding: 5px 10px;
+}

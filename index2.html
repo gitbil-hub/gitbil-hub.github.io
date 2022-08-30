@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- import materialize.css -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style2.css">
+    <title>PPDB SMK AL amanah</title>
+</head>
+    
+<body>  
+
+
+    <!-- navbar -->
+
+    <div class="navbar-fixed">
+        <nav class="blue navbar navbar-light bg-light">
+            <h5 class="navbar"><b>PPDB SMK Al amanah</b></h5>
+    </div>
+
+    <!-- form -->
+    <div class="container">
+        <nav class="blue navbar light-4 navbar-light bg-light">
+            <h4 class="navbar"><b>Formulir Input Calon Siswa</b></h4>
+        </nav>
+        <div class="card-panel data">
+            <h5>Data Pribadi Siswa</h5>
+                <form>
+                    <div class="row">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s3">
+                                    <input placeholder="" id="tahun_lulus" type="text" class="validate">
+                                    <label for="">Tahun Lulus SMP</label>
+                                </div>
+                                </div>
+                                <div class="input-field col s6">
+                                <input placeholder="" id="nama_lengkap" type="text" class="validate">
+                                <label for="last_name">Nama Lengkap</label>
+                                </div>
+                                
+                                <div class="input-field col s6">
+                                    <select class="browser-default">
+                                    <option value="" disabled selected>Jenis Kelamin</option>
+                                    <option value="1">Laki-Laki</option>
+                                    <option value="2">Perempuan</option>
+                                    </select>
+                                </div>
+
+                                <div class="input-field col s12">
+                                <input placeholder="" id="NIK" type="text" class="validate">
+                                <label for="NIK">NIK</label>
+                                </div>
+
+                                <div class="input-field col s6">
+                                <input placeholder="" id="NISN" type="text" class="validate">
+                                <label for="NISN">NISN</label>
+                                </div>
+
+                                <div class="input-field col s6">
+                                <input placeholder="" id="Akta_lahir" type="text" class="validate">
+                                <label for="Akta_lahir">Akta Lahir</label>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <select class="browser-default">
+                                    <option value="" disabled selected>Kompetensi Keahlian Pilihan 1</option>
+                                    <option value="1">Rekayasa Perangkat Lunak</option>
+                                    <option value="2">Otomatisasi Dan Tata Kelola Perkantoran</option>
+                                    <option value="3">Akuntasi Dan Keuangan Lembaga</option>
+                                    <option value="3">Bisnis Daring Dan Pemasaran</option>
+                                    <option value="3">Perbankan Syariah</option>
+                                    </select>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <select class="browser-default">
+                                    <option value="" disabled selected>Kompetensi Keahlian Pilihan 2</option>
+                                    <option value="1">Rekayasa Perangkat Lunak</option>
+                                    <option value="2">Otomatisasi Dan Tata Kelola Perkantoran</option>
+                                    <option value="3">Akuntasi Dan Keuangan Lembaga</option>
+                                    <option value="3">Bisnis Daring Dan Pemasaran</option>
+                                    <option value="3">Perbankan Syariah</option>
+                                    </select>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <input placeholder="" id="tempat_lahir" type="text" class="validate">
+                                    <label for="tempat_lahir">Tempat Lahir</label>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <input type="date" class="datepicker">
+                                    <label for="">Tanggal Lahir</label>
+                                </div>
+
+                                <div class="input-field col s12">
+                                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <label for="textarea1">Alamat Jalan</label>
+                                </div>
+
+                                <div class="input-field col s4">
+                                    <input placeholder="" id="kelurahan" type="text" class="validate">
+                                    <label for="Kelurahan">Kelurahan</label>
+                                </div>
+
+                                <div class="input-field col s4">
+                                    <input placeholder="" id="kecamatan" type="text" class="validate">
+                                    <label for="Kecamatan">Kecamatan</label>
+                                </div>
+
+                                <div class="input-field col s4">
+                                    <input placeholder="" id="kota_kabupaten" type="text" class="validate">
+                                    <label for="Kota_Kabupaten">Kota/Kabupaten</label>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <input placeholder="" id="tempat_lahir" type="text" class="validate">
+                                    <label for="nomor_ponsel">Nomor Ponsel</label>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">surel/Email</label>
+                                    <span class="helper-text" data-error="wrong" data-success="right"></span>
+                                </div>
+
+                                <div>
+                                    <h5>Data Sekolah Asal</h5>
+                                    <form action="#">
+                                        <p>
+                                          <label>
+                                            <input class="with-gap" name="group1" type="radio"  />
+                                            <span>SMP Al amanah</span>
+                                          </label>
+                                        </p>
+
+                                        <p>
+                                            <label>
+                                              <input class="with-gap" name="group1" type="radio"  />
+                                              <span>Bukan SMP Al amanah</span>
+                                            </label>
+                                        </p>
+                                       
+                                    </form>
+                                </div>
+
+                                <div class="input-field col s6">
+                                    <input placeholder="" id="nama_sekolah" type="text" class="validate">
+                                    <label for="nama_sekolah">Nama Sekolah</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input placeholder="" id="alamat_sekolah" type="text" class="validate">
+                                    <label for="alamat_sekolah">Alamat Sekolah</label>
+                                </div>
+
+                                <a class="waves-effect blue darken-3 btn-large">DAFTAR</a>
+                                <a class="waves-effect grey darken-2 btn-large" href="index.html    ">KEMBALI</a>
+                            </div>
+                        </form>
+                    </div>
+                </form>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="blue light-4 white-text center" id="footer">
+        <p class="flow-text">Copyright &copy; 2022 SMK Al Amanah Kota Tangerang Selatan</p>
+    </footer>
+
+
+
+    <!-- Java script at end of body for optimized loading -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const sidenav = document.querySelectorAll('.sidenav');
+        M.sidenav.init(sidenav, {
+
+        });
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems, options);
+        });
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.datepicker');
+    var instances = M.Datepicker.init(elems, options);
+        });
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

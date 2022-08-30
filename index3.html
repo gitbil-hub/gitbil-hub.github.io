@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- import materialize.css -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style3.css">
+    <title>PPDB SMK AL amanah</title>
+</head>
+    
+<body>
+
+
+    <!-- navbar -->
+
+    <div class="navbar-fixed">
+        <nav class="blue navbar navbar-light bg-light">
+            <h5 class="navbar"><b class="ppdb">PPDB SMK Al amanah</b></h5>
+            <a class="blue navbar navbar-light btn-large" href="index.html" style="margin-left: 160vh; margin-top: -110px;"> Home</a>
+    </div>
+
+    <!-- form -->
+    <div class="container">
+        <div class="row">
+            <div class="card-panel">
+                <h5 class="navbar blue-text">Formulir Masuk Aplikasi</h5>
+                <hr>  
+                <h6>Nomor Induk Kewarganegaraan/NISN/ No. Pendaftaran</h6>
+                <div class="data">
+                        <form>
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input placeholder="" id="tahun_lulus" type="text" class="validate">
+                                        </div>
+                                    <h6>Tanggal Lahir</h6>
+                                        </div>
+                                        <div class="input-field col s12">
+                                            <input type="date" class="datepicker">
+                                        </div>
+                                    <div class="buton">   
+                                        <a class="waves-effect blue darken-4 btn-small">Masuk</a>
+                                    </div>
+                                    <p class="buton1">
+                                        <a class="black-text blue amber lighten-1 btn-small">Daftar Baru</a>
+                                        <a class="waves-effect  green darken-4 btn-small">Bantuan</a>
+                                    </p>
+                                </form>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <footer class="blue light-4 white-text center" id="footer">
+        <p class="flow-text">Copyright &copy; 2022 SMK Al Amanah Kota Tangerang Selatan</p>
+    </footer>
+
+
+
+    <!-- Java script at end of body for optimized loading -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        const sidenav = document.querySelectorAll('.sidenav');
+        M.sidenav.init(sidenav, {
+
+        });
+
+        document.addEventListener('DOMContentLoaded', function() {
+        var elems = document.querySelectorAll('.datepicker');
+        var instances = M.Datepicker.init(elems, options);
+        });
+        
+    </script>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
